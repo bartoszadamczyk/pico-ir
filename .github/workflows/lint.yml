@@ -8,8 +8,8 @@ on:
       - '*'
 
 jobs:
-  lint_and_test:
-    name: Lint and Test
+  lint:
+    name: Lint
     runs-on: ubuntu-latest
     steps:
       - name: Setup Python
