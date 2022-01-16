@@ -1,5 +1,8 @@
 # Pico IR
 
+[![Lint](https://github.com/bartoszadamczyk/pico-ir/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/bartoszadamczyk/pico-ir/actions/workflows/lint.yml)
+[![License: MIT](https://img.shields.io/github/license/bartoszadamczyk/pico-ir)](https://github.com/bartoszadamczyk/pico-ir/blob/main/LICENSE)
+
 Complete IR library for Raspberry Pico
 
 ## Warning
