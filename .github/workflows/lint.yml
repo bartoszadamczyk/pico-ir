@@ -1,0 +1,25 @@
+name: Lint
+
+on:
+  push:
+    paths:
+      - '**/*.py'
+    branches:
+      - '*'
+
+jobs:
+  lint_and_test:
+    name: Lint and Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+          architecture: x64
+      - name: Checkout source code
+        uses: actions/checkout@master
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run flake8
+        run: flake8
