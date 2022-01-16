@@ -1,7 +1,7 @@
 from machine import PWM
 import utime
 
-HIGH_SIGNAL = (2 ** 16) / 2
+HIGH_SIGNAL = int((2 ** 16) / 2)
 LOW_SIGNAL = 0
 
 
@@ -29,5 +29,6 @@ def send_code(pin, code, freq=38000):
     pwm.duty_u16(HIGH_SIGNAL)
     utime.sleep_us(562)
     pwm.duty_u16(LOW_SIGNAL)
+    utime.sleep_us(562)
 
     pwm.deinit()
