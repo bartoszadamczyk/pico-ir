@@ -1,6 +1,6 @@
 # Pico IR
 
-Complete IR library for Raspberry Pi Pico
+Complete IR library for Raspberry Pico
 
 ## Warning
 
