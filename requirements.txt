@@ -1,5 +1,5 @@
 adafruit-ampy==1.0.7
-black==21.12b0
+black==26.3.1
 click==8.0.3
 docopt==0.6.2
 flake8==4.0.1
